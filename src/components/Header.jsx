@@ -16,7 +16,7 @@ const Header = ({ onNavigate, currentPage }) => (
       <img
         src="public/JmSlogo.svg"
         alt="Jayness Foundation Logo"
-        className="h-10 w-auto rounded-full"
+        className="h-10 w-auto "
       />
       <span>Jayness Foundation</span>
     </div>
