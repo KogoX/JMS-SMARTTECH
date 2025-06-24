@@ -6,19 +6,68 @@ const HomePage = ({ onNavigate }) => (
     {/* Removed pt-20 as the header is no longer fixed */}
     <div>
       {/* Hero Section (Purple Heart) - Banner, mission statement, primary CTAs, impact video */}
-      <div class="relative w-full h-96">
-        <img
-          src="public/heroimage.png"
-          alt="Hero Image"
-          class="w-full h-full object-cover"
-        />
-        <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-40">
-          <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
-            Welcome to Our Site
+      <section
+        className="py-16 px-4 text-center relative overflow-hidden"
+        style={{ backgroundColor: COLORS.purpleHeart, color: "white" }}
+      >
+        <div
+          className="absolute inset-0 opacity-75"
+          style={{
+            background: `linear-gradient(to right, ${COLORS.purpleHeart}E6, ${COLORS.purpleHeart}99)`,
+          }}
+        ></div>
+        <div className="relative z-10 max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+            A just, resilient, and inclusive community where every individual
+            can realize their potential and contribute meaningfully to society.
           </h1>
-          <p class="text-lg md:text-xl text-white">Your tagline goes here.</p>
+          <p className="text-xl md:text-2xl mb-8">
+            To empower vulnerable and marginalized community members by
+            delivering life-changing services in education, health, economic
+            empowerment, and advocacy.
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <button
+              className="text-lg px-8 py-4 rounded-full shadow-lg transition-transform transform hover:scale-105"
+              style={{
+                backgroundColor: COLORS.goldenYellowHands,
+                color: COLORS.darkBlueTextOutline,
+              }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.backgroundColor =
+                  "rgba(240, 176, 49, 0.8)")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.backgroundColor =
+                  COLORS.goldenYellowHands)
+              }
+              onClick={() => onNavigate("donate")}
+            >
+              Donate Now
+            </button>
+            <button
+              className="text-lg px-8 py-4 rounded-full shadow-lg transition-transform transform hover:scale-105"
+              style={{ backgroundColor: "white", color: COLORS.purpleHeart }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.backgroundColor =
+                  "rgba(255, 255, 255, 0.8)")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.backgroundColor = "white")
+              }
+              onClick={() => onNavigate("about")}
+            >
+              Learn More
+            </button>
+          </div>
+          <div className="mt-8 text-sm opacity-80">
+            <a href="#" className="hover:underline" style={{ color: "white" }}>
+              Watch Our Impact Video
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
+
       {/* Quick Donation Widget (Olive Branch Leaves) - Amount selection, payment methods, mobile money */}
       <section
         className="py-12 px-4"
