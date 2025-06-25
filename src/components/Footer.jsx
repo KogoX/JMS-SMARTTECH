@@ -1,5 +1,10 @@
 import React from "react";
 import { COLORS } from "../constants/colors";
+import { FaFacebook } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = ({ onNavigate }) => (
   <footer
@@ -103,13 +108,13 @@ const Footer = ({ onNavigate }) => (
       <div>
         <h4 className="text-xl font-semibold mb-4">Connect With Us</h4>
         <p className="mb-2" style={{ color: "rgba(255, 255, 255, 0.8)" }}>
-          123 Main St, City, Country
+          30100 Ronald Ngala St, Eldoret, Kenya
         </p>
         <p className="mb-2" style={{ color: "rgba(255, 255, 255, 0.8)" }}>
-          Phone: +1 (555) 123-4567
+          Phone: +254 793 779 358
         </p>
         <p className="mb-4" style={{ color: "rgba(255, 255, 255, 0.8)" }}>
-          Email: info@yourorg.org
+          Email: info@jaynessfoundation.org
         </p>
         <div className="flex gap-4 text-2xl">
           {/* Placeholder social media icons */}
@@ -118,7 +123,7 @@ const Footer = ({ onNavigate }) => (
             className="hover:text-purple-300"
             style={{ color: "rgba(255, 255, 255, 0.8)" }}
           >
-            👍
+            <FaFacebook />
           </a>{" "}
           {/* Facebook */}
           <a
@@ -126,7 +131,7 @@ const Footer = ({ onNavigate }) => (
             className="hover:text-purple-300"
             style={{ color: "rgba(255, 255, 255, 0.8)" }}
           >
-            🐦
+            <BsTwitterX />
           </a>{" "}
           {/* Twitter */}
           <a
@@ -134,7 +139,7 @@ const Footer = ({ onNavigate }) => (
             className="hover:text-purple-300"
             style={{ color: "rgba(255, 255, 255, 0.8)" }}
           >
-            📸
+            <FaInstagram />
           </a>{" "}
           {/* Instagram */}
           <a
@@ -142,9 +147,17 @@ const Footer = ({ onNavigate }) => (
             className="hover:text-purple-300"
             style={{ color: "rgba(255, 255, 255, 0.8)" }}
           >
-            👔
+            <FaYoutube />
           </a>{" "}
-          {/* LinkedIn */}
+          {/* YouTube */}
+          <a
+            href="#"
+            className="hover:text-purple-300"
+            style={{ color: "rgba(255, 255, 255, 0.8)" }}
+          >
+            <FaLinkedin />
+          </a>{" "}
+          {/* Linkdin */}
         </div>
       </div>
     </div>

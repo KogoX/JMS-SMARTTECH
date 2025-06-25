@@ -14,7 +14,7 @@ const Header = ({ onNavigate, currentPage }) => (
       onClick={() => onNavigate("home")}
     >
       <img
-        src="public/JmSlogo.svg"
+        src="/JmSlogo.svg"
         alt="Jayness Foundation Logo"
         className="h-10 w-auto "
       />
