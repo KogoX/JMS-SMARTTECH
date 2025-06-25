@@ -5,6 +5,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { AiFillTikTok } from "react-icons/ai";
 
 const Footer = ({ onNavigate }) => (
   <footer
@@ -150,6 +151,14 @@ const Footer = ({ onNavigate }) => (
             <FaYoutube />
           </a>{" "}
           {/* YouTube */}
+          <a
+            href="#"
+            className="hover:text-purple-300"
+            style={{ color: "rgba(255, 255, 255, 0.8)" }}
+          >
+            <AiFillTikTok />
+          </a>{" "}
+          {/* TikTok */}
           <a
             href="#"
             className="hover:text-purple-300"
