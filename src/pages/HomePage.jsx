@@ -1,5 +1,8 @@
 import React from "react";
 import { COLORS } from "../constants/colors";
+import { BsBank } from "react-icons/bs";
+import { CiMobile3 } from "react-icons/ci";
+import { FaCreditCard } from "react-icons/fa";
 
 const HomePage = ({ onNavigate }) => (
   <>
@@ -83,7 +86,7 @@ const HomePage = ({ onNavigate }) => (
         >
           <h2 className="text-3xl font-bold mb-6">Make a Quick Donation</h2>
           <div className="flex flex-wrap justify-center gap-4 mb-6">
-            {["25", "50", "100", "Other"].map((amount) => (
+            {["500", "700", "1000", "Other"].map((amount) => (
               <button
                 key={amount}
                 className="px-6 py-3 rounded-full border transition-colors"
@@ -101,7 +104,7 @@ const HomePage = ({ onNavigate }) => (
                     COLORS.backgroundOffWhite)
                 }
               >
-                ${amount}
+                Ksh {amount}
               </button>
             ))}
           </div>
@@ -121,9 +124,18 @@ const HomePage = ({ onNavigate }) => (
             Payment Methods:
           </p>
           <div className="flex justify-center gap-6 mb-6 text-4xl">
-            <span>💳</span> {/* Card icon */}
-            <span>📱</span> {/* Mobile money icon */}
-            <span>🏦</span> {/* Bank icon */}
+            <span>
+              <FaCreditCard />
+            </span>{" "}
+            {/* Card icon */}
+            <span>
+              <CiMobile3 />
+            </span>{" "}
+            {/* Mobile money icon */}
+            <span>
+              <BsBank />
+            </span>{" "}
+            {/* Bank icon */}
           </div>
           <button
             className="text-lg px-8 py-4 rounded-full shadow-md transition-colors w-full"
