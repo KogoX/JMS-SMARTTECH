@@ -173,7 +173,7 @@ const HomePage = ({ onNavigate }) => (
               className="text-5xl font-extrabold mb-2"
               style={{ color: COLORS.goldenYellowHands }}
             >
-              1,234+
+              234+
             </div>
             <p className="text-xl">Lives Impacted</p>
           </div>
@@ -189,7 +189,7 @@ const HomePage = ({ onNavigate }) => (
               className="text-5xl font-extrabold mb-2"
               style={{ color: COLORS.goldenYellowHands }}
             >
-              5,678+
+              678+
             </div>
             <p className="text-xl">Meals Provided</p>
           </div>
@@ -205,7 +205,7 @@ const HomePage = ({ onNavigate }) => (
               className="text-5xl font-extrabold mb-2"
               style={{ color: COLORS.goldenYellowHands }}
             >
-              $987,654
+              Ksh 100000+
             </div>
             <p className="text-xl">Funds Raised</p>
           </div>
@@ -221,7 +221,7 @@ const HomePage = ({ onNavigate }) => (
               className="text-5xl font-extrabold mb-2"
               style={{ color: COLORS.goldenYellowHands }}
             >
-              123+
+              50+
             </div>
             <p className="text-xl">Projects Completed</p>
           </div>
