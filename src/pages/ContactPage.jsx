@@ -20,8 +20,8 @@ const ContactPage = () => (
         Contact Us
       </h1>
       <p className="text-lg mb-8">
-        We'd love to hear from you! Please fill out the form below or reach out
-        using the contact details provided.
+        We would love to hear from you! Please fill out the form below or reach
+        out using the contact details provided.
       </p>
 
       <form className="space-y-6 text-left">
@@ -104,13 +104,13 @@ const ContactPage = () => (
           Our Contact Details:
         </h2>
         <p className="text-md mb-2">
-          <strong>Address:</strong> 123 Main Street, Anytown, AT 12345, Country
+          <strong>Address:</strong> 30100 Ronald Ngala St, Eldoret, Kenya
         </p>
         <p className="text-md mb-2">
-          <strong>Phone:</strong> +1 (555) 123-4567
+          <strong>Phone:</strong> +254 793 779 358
         </p>
         <p className="text-md">
-          <strong>Email:</strong> info@yourorg.org
+          <strong>Email:</strong> info@jaynessfoundation.org
         </p>
       </div>
     </div>
