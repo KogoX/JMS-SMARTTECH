@@ -1,5 +1,6 @@
 import React from "react";
 import { COLORS } from "../constants/colors";
+import { FaCcPaypal } from "react-icons/fa";
 
 const DonatePage = () => (
   <div
@@ -31,7 +32,7 @@ const DonatePage = () => (
         Choose Your Donation Amount
       </h2>
       <div className="flex flex-wrap justify-center gap-4 mb-6">
-        {["25", "50", "100", "250", "500", "Other"].map((amount) => (
+        {["200", "500", "1000", "1500", "2000", "Other"].map((amount) => (
           <button
             key={amount}
             className="px-6 py-3 rounded-full border transition-colors"
@@ -48,7 +49,7 @@ const DonatePage = () => (
                 COLORS.backgroundOffWhite)
             }
           >
-            ${amount}
+            Ksh {amount}
           </button>
         ))}
       </div>
@@ -69,10 +70,21 @@ const DonatePage = () => (
         Select Payment Method
       </h2>
       <div className="flex justify-center gap-6 mb-8 text-5xl">
-        <span>💳</span> {/* Card icon */}
-        <span>📱</span> {/* Mobile money icon */}
+        <span>
+          <img src="/visa.svg" alt="" />
+        </span>{" "}
+        {/* Card icon */}
+        <span>
+          {" "}
+          <img src="/mpesa.svg" alt="" />{" "}
+        </span>{" "}
+        {/* Mobile money icon */}
         <span>🏦</span> {/* Bank icon */}
-        <span> PayPal</span> {/* Adding text to the emoji for clarity */}
+        <span>
+          {" "}
+          <FaCcPaypal />
+        </span>{" "}
+        {/* Adding text to the emoji for clarity */}
       </div>
 
       <button

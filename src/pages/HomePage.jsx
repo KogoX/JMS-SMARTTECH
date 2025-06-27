@@ -829,8 +829,10 @@ const HomePage = ({ onNavigate }) => (
           color: COLORS.darkBlueTextOutline,
         }}
       >
-        <h2 className="text-4xl font-bold mb-6">About Our Organization</h2>
-        <div className="max-w-4xl mx-auto text-lg leading-relaxed">
+        <h2 className="text-4xl font-bold text-center mb-6">
+          About Our Organization
+        </h2>
+        <div className="max-w-4xl mx-auto text-lg text-center leading-relaxed">
           <p className="mb-4">
             We are dedicated to empowering vulnerable and marginalized community
             members by delivering life-changing services in education, health,
@@ -977,6 +979,7 @@ const HomePage = ({ onNavigate }) => (
         style={{
           backgroundColor: `rgba(66, 94, 134, 0.15)`,
           color: COLORS.darkBlueTextOutline,
+          textAlign: "center",
         }}
       >
         <div className="max-w-2xl mx-auto">

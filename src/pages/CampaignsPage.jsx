@@ -26,42 +26,42 @@ const CampaignsPage = ({ onNavigate }) => (
             title: "Child and Orphan Support Program",
             description:
               "Providing safe shelter and feeding programs, school uniform, shoes, books, and tuition support, including after-school arts, music, and tutoring.",
-            progress: "75%",
+            progress: "10%",
             img: "https://placehold.co/400x250/FBF7F1/425E86?text=Child+Support+Campaign",
           },
           {
             title: "Women's Empowerment Hub",
             description:
               "Offering business and vocational training, legal clinics, GBV survivor support, and formation of cooperative groups for savings and credit.",
-            progress: "60%",
+            progress: "20%",
             img: "https://placehold.co/400x250/FBF7F1/425E86?text=Women+Empowerment+Campaign",
           },
           {
             title: "Community Health Initiative",
             description:
               "Organizing annual medical camps, mobile clinics, immunizations, deworming, and nutrition education, alongside water and sanitation projects (e.g., boreholes, toilets).",
-            progress: "90%",
+            progress: "17%",
             img: "https://placehold.co/400x250/FBF7F1/425E86?text=Healthcare+Campaign",
           },
           {
             title: "Education and Literacy Drive",
             description:
-              "Providing scholarships for high-performing students, adult education classes (literacy, numeracy, digital skills), and partnering with schools to improve infrastructure.",
-            progress: "80%",
+              "Providing scholarships for high-performing students, adult education classes (literacy, numeracy, digital skills), and future partnering with schools to improve infrastructure.",
+            progress: "0%",
             img: "https://placehold.co/400x250/FBF7F1/425E86?text=Education+Campaign",
           },
           {
             title: "Youth Empowerment and Innovation",
             description:
               "Offering ICT training, coding bootcamps, talent showcases (dance, music, art), and mentorship and peer support groups.",
-            progress: "70%",
+            progress: "0%",
             img: "https://placehold.co/400x250/FBF7F1/425E86?text=Youth+Campaign",
           },
           {
             title: "Environmental and Civic Engagement",
             description:
               "Organizing monthly clean-up and tree-planting campaigns, awareness campaigns on civic rights and responsibilities, and disaster preparedness and climate resilience forums.",
-            progress: "55%",
+            progress: "0%",
             img: "https://placehold.co/400x250/FBF7F1/425E86?text=Environment+Campaign",
           },
         ].map((campaign, index) => (
