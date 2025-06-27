@@ -33,7 +33,7 @@ const ImpactPage = ({ onNavigate }) => (
             className="text-2xl font-extrabold"
             style={{ color: COLORS.purpleHeart }}
           >
-            12,345+
+            345+
           </p>
           <p className="text-md">
             Individuals have directly benefited from our programs.
@@ -51,7 +51,7 @@ const ImpactPage = ({ onNavigate }) => (
             className="text-2xl font-extrabold"
             style={{ color: COLORS.purpleHeart }}
           >
-            120+
+            20+
           </p>
           <p className="text-md">
             Communities have been positively impacted by our initiatives.
