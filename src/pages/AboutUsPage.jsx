@@ -63,7 +63,7 @@ const AboutUsPage = ({ onNavigate }) => (
         {[
           {
             name: "Agnes Wanjiru",
-            role: "Founder",
+            role: "Founder, and Executive Director",
             img: "https://placehold.co/150x150/FBF7F1/425E86?text=AW",
           },
           {
@@ -72,12 +72,12 @@ const AboutUsPage = ({ onNavigate }) => (
             img: "https://placehold.co/150x150/FBF7F1/425E86?text=AJ",
           },
           {
-            name: "Bob Williams",
+            name: "Mercy Jepkemboi",
             role: "Programs Manager",
             img: "https://placehold.co/150x150/FBF7F1/425E86?text=BW",
           },
           {
-            name: "Carol Davis",
+            name: "Laurence Koech",
             role: "Finance Lead",
             img: "https://placehold.co/150x150/FBF7F1/425E86?text=CD",
           },

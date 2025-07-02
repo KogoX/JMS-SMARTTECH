@@ -13,6 +13,14 @@ const HomePage = ({ onNavigate }) => (
         className="py-16 px-4 text-center relative overflow-hidden"
         style={{ backgroundColor: COLORS.purpleHeart, color: "white" }}
       >
+        {/* Decorative Hero Image */}
+        <img
+          src="/heroimage.jpg"
+          alt="Community Impact"
+          className="absolute right-0 bottom-0 left-0 top-0    pointer-events-none select-none hidden md:block"
+          style={{ zIndex: 1, objectFit: "cover" }}
+          aria-hidden="true"
+        />
         <div
           className="absolute inset-0 opacity-75"
           style={{
@@ -250,7 +258,7 @@ const HomePage = ({ onNavigate }) => (
             }}
           >
             <img
-              src="https://placehold.co/400x250/FBF7F1/425E86?text=Child+Support+Campaign"
+              src="/chieldjpg.jpg"
               alt="Child and Orphan Support Program"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -326,7 +334,7 @@ const HomePage = ({ onNavigate }) => (
             }}
           >
             <img
-              src="https://placehold.co/400x250/FBF7F1/425E86?text=Women+Empowerment+Campaign"
+              src="/womenpower.jpg"
               alt="Women's Empowerment Hub"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -402,7 +410,7 @@ const HomePage = ({ onNavigate }) => (
             }}
           >
             <img
-              src="https://placehold.co/400x250/FBF7F1/425E86?text=Healthcare+Campaign"
+              src="/health.jpg"
               alt="Community Health Initiative"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -478,7 +486,7 @@ const HomePage = ({ onNavigate }) => (
             }}
           >
             <img
-              src="https://placehold.co/400x250/FBF7F1/425E86?text=Education+Campaign"
+              src="/education.jpg"
               alt="Education and Literacy Drive"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -554,7 +562,7 @@ const HomePage = ({ onNavigate }) => (
             }}
           >
             <img
-              src="https://placehold.co/400x250/FBF7F1/425E86?text=Youth+Campaign"
+              src="/youth.jpg"
               alt="Youth Empowerment and Innovation"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -629,7 +637,7 @@ const HomePage = ({ onNavigate }) => (
             }}
           >
             <img
-              src="https://placehold.co/400x250/FBF7F1/425E86?text=Environment+Campaign"
+              src="/environment.jpg"
               alt="Environmental and Civic Engagement"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
